@@ -1,0 +1,100 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+.header,
+.introduce{
+    background-color:cornflowerblue;
+    padding: 50px;
+}
+.header{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    padding: 0px 30px;
+}
+a{
+    text-decoration: none;
+    gap:10px;
+    padding: 10px;
+}
+.introduce_content{
+font-size: 40px;
+/* gap:100px; */
+}
+.introduce_content_small{
+    font-size: 15px;
+    
+}
+.introduce_logo{
+    flex-shrink: 0;
+}
+.introduce{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 300px;加這行會導致字顯示在藍區域外 */
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.Sign_up{
+    color:white;
+    background-color: blue;
+    border-radius: 15px;
+}
+._animal{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    /* border: 2px solid blue; */
+}
+.animal_con{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.text{
+    display: flex;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+/* 要多一個判斷，因為會把header的也加到方框 */
+._img img{
+    border: 2px solid blue;
+    border-radius:15px;
+}
+._talk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    background-color:gainsboro;
+    font-style: italic;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color:rgb(93, 156, 250);
+    margin: 30px;
+    font-weight: 900;
+    font-size: 20px;
+    gap: 30px;
+    flex-direction: row;
+}
